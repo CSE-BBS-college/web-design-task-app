@@ -16,7 +16,7 @@ form.addEventListener('submit', event => {
             </div>`
         id++;
         input.value = ''
-        date_input.value = ''
+        date_inputvalueAsDate = new Date()
     } else {
         alert('Please fill in the fields')
     }

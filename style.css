@@ -8,12 +8,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: rgb(19, 16, 16);
-    background: #F7A4A4;
+    background: #497174;
 }
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 16px;
 }
 .addView {
     width: 100%;
@@ -23,8 +33,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000;
     justify-content: space-between;
-    background-color: #FEBE8C;
+    background-color: #59CE8F;
     border-radius: 0px 0px 26px 26px;
     box-shadow:rgb(23, 21, 21) 0px 0px 10px 0px;
 }
@@ -116,7 +127,8 @@ body {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 50% 50%;
-    align-content: center;
+    grid-row-gap: 28px;
+    align-content: space-around;
     justify-items: center;
     margin: 0 auto;
 }
