@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="addView">
+            <h1>Add Task</h1>
+            <form id="form">
+                <span>Task Name</span>
+                <input type="text" id="task" name="title" placeholder="Enter the Task">
+                <span>Task Date</span>
+                <input type="date" id="date" name="date" >
+                <input type="submit" name="add" value="Add">
+            </form>
+        </div>
+        <div class="taskView">
+            <h1>Tasks</h1>
+            <div class="taskList">
+                <div class="task" id=0>
+                    <h2>Finsh the Web design assignment</h2>
+                    <p>(15/11/2022)</p>
+                    <i class="gg-trash" onclick="deleteTask(0)"></i>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
